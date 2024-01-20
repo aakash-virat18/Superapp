@@ -1,0 +1,3 @@
+.button {
+  @apply rounded-[28px] text-white tracking-wider font-semibold text-[20px];
+}

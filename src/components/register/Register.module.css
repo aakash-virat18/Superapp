@@ -1,0 +1,59 @@
+.registerPage {
+  @apply h-screen w-screen flex;
+}
+
+.registerImage {
+  @apply h-full w-1/2;
+}
+
+.formSection {
+  @apply h-full w-1/2 flex flex-col justify-center items-center gap-1;
+}
+
+.registerHeading {
+  @apply font-singleday text-[#72DB73] text-[67px];
+}
+
+.registerSubHeading {
+  @apply text-white text-[20px];
+}
+
+.registerForm {
+  @apply flex flex-col gap-4 mt-4 mb-4;
+}
+
+.registerInput {
+  @apply w-[380px] h-[40px] bg-[#292929] rounded text-[14px] placeholder-[#7c7c7c] placeholder-[20px] px-4 text-white;
+}
+
+.checkInput {
+  @apply flex mt-3 gap-2;
+}
+
+.checkText {
+  @apply text-[#7C7C7C] text-[14px];
+}
+
+.tnc {
+  @apply text-[#7C7C7C] w-[380px] text-[12px];
+}
+
+.tncHighlight {
+  @apply text-[#72DB73];
+}
+
+.error {
+  @apply text-[10px] text-red-600;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

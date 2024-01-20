@@ -1,0 +1,51 @@
+.genre {
+  @apply h-screen w-screen px-[80px] flex gap-64;
+}
+
+.displayCategory {
+  @apply w-[40%] h-screen;
+}
+
+.logo {
+  @apply text-[#72DB73] text-[40px] font-singleday pt-32;
+}
+
+.heading {
+  @apply text-white text-[48px] font-semibold mt-5;
+}
+
+.category {
+  @apply grid grid-cols-[150px,150px,150px] grid-rows-[150px,150px,150px] mt-20 gap-5;
+}
+
+.categoryItem {
+  @apply text-white rounded-[10px] text-lg p-2 cursor-pointer;
+}
+
+.border {
+  @apply border-4 border-green-600;
+}
+
+.img {
+  @apply mt-5;
+}
+
+.categoryButton {
+  @apply w-32 h-8 bg-[#148A08] rounded-3xl text-white text-sm flex items-center justify-between px-3;
+}
+
+.buttons {
+  @apply flex flex-wrap flex-1 gap-3 mt-8;
+}
+
+.cross {
+  @apply text-[#085C00] cursor-pointer;
+}
+
+.error {
+  @apply text-red-600 flex text-sm mt-5 gap-2 items-end;
+}
+
+.error img {
+  @apply h-5 w-5;
+}
